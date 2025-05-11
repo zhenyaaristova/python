@@ -19,6 +19,7 @@ else:
     num2 = num2 - 2
 print(num2)
 
+# homework
 num3str = input('Введите число')
 num3 = int(num3str)
 if num3 >= -9 and num3 <= 2:
