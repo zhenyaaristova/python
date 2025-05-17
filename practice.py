@@ -119,7 +119,7 @@ elif mng2 > mng1 and mng2 > mng3:
 else:
     print('Лучший менеджер - №3')
 extracash = cash + 200
-print('К начислению (с учетом премии 200$):', extracash)
+print('К начислению (с учетом премии 200$ за лучшего):', extracash)
 
 # задача №9
 year = int(input('Введите год:'))
