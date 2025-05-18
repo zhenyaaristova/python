@@ -35,3 +35,5 @@ for x in range(1, num+1):
     result *= x
 print(result)
 
+# задача №5
+
