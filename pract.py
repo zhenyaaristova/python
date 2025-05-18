@@ -1,4 +1,6 @@
 # задача №1
+import math
+
 for x in range(2, 51, 2):
     print(x)
 
@@ -26,4 +28,10 @@ if prime:
 else:
     print('Число не является простым')
 
+# задача №4
+num = int(input("Введите число:"))
+result = 1
+for x in range(1, num+1):
+    result *= x
+print(result)
 
