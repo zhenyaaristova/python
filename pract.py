@@ -60,5 +60,9 @@ for x in string:
 print(n)
 
 # задача №8
-
+numb = input('Введите число:')
+sum = 0
+for x in numb:
+    sum += int(x)
+print(sum)
 
