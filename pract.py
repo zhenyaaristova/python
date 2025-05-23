@@ -36,4 +36,29 @@ for x in range(1, num+1):
 print(result)
 
 # задача №5
+num1 = 0
+num2 = 1
+print(num1)
+print(num2)
+for x in range (8):
+    num3 = num1 + num2
+    print(num3)
+    num1 = num2
+    num2 = num3
+
+# задача №6
+for x in range(10, 0, -1):
+    print(x)
+
+# задача №7
+string = 'Добрый день'
+n = 0
+vowels = 'аеёиоуыэюяАЕЁИОУЫЭЮЯ'
+for x in string:
+    if x in vowels:
+        n += 1
+print(n)
+
+# задача №8
+
 
