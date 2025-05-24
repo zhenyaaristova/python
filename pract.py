@@ -49,7 +49,7 @@ for x in range(10, 0, -1):
     print(x)
 
 # задача №7
-string = 'Добрый день'
+string = input('Введите текст: ')
 n = 0
 vowels = 'аеёиоуыэюяАЕЁИОУЫЭЮЯ'
 for x in string:
