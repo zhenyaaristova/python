@@ -67,5 +67,4 @@ print(sum)
 # задача №9
 for x in range(1, 11):
     for y in range(1, 11):
-        n = x * y
         print(f'{x} * {y} = {n}')
