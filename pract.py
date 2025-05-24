@@ -69,3 +69,11 @@ for x in range(1, 11):
     for y in range(1, 11):
         n = x * y
         print(f'{x} * {y} = {n}')
+
+# задача №10
+numbers = [3, -10, 65, 5, 10, 7, 345]
+result = []
+for x in numbers:
+    if abs(x) > 5:
+        result.append(x)
+print(result)
