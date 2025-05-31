@@ -77,3 +77,25 @@ for x in numbers:
     if abs(x) > 5:
         result.append(x)
 print(result)
+
+# задача 11
+letters = 'hvbhFfffFfFgG'
+result = ''
+
+for letter in letters:
+    if letter.islower():
+        result += letter
+print(result)
+
+
+# задача 12
+secret_list = ["Мавпродош", "Лорнектиф", "Древерол", "Фиригарпиг", "Клодобродыч"]
+
+while True:
+    nickname = input("Введите ваш никнейм: ")
+    if nickname in secret_list:
+        print(f"Ты – свой. Приветствую, любезный {nickname}!")
+        break
+    else:
+        print("Тут ничего нет. Еще есть вопросы?")
+
